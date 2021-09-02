@@ -5,6 +5,15 @@ Here is the link of the Tableau visualization:
 https://public.tableau.com/app/profile/constance3864/viz/AirbnbParis-DashBoard/Dashboard1
 
 ## Table of Contents
+1. Data Collecion
+2. Dashboard
+  * Basic Information<br>
+    1. Map View<br>
+    2. Room Type<br>
+  * Analysis View <br>
+    3. Past Sales <br>
+    4. Top 10 Busy Hosts <br>
+    5. Future Maximum sales
 
 ## 1. Data Collection
 We use the data from Airbnb - http://insideairbnb.com/get-the-data.html
@@ -15,7 +24,7 @@ Here are the details of this project:
 
 ## 2. Dashboard
 ### Basic Information
-1/ Map View <br>
+#### 1/ Map View <br>
 
 We put the [Average Price] in the [Neighbourhood] (20 regions in Paris) <br>
 each circle size represents the amount of [Average Price]. <br>
@@ -29,12 +38,12 @@ As you can see the Top 3:<br>
 all are close to famous sightseeing places in Paris - Champs-Élysées, Louvre Museum, Eiffel Tower <br>
 and the lowest average price neighbourhood mostly located on the surroundings of Paris, for the East surroundings has the lowest 3 regions.
 
-2/ Room Type <br>
+#### 2/ Room Type <br>
 There are 4 types of room, Entire home/apt, Hotel Room, Private Room, Shared Room <br>
 Entire home/apt takes up 85% of total, where Private Room takes 12%
 
 ### Analysis View
-3/ Past Sales <br>
+#### 3/ Past Sales <br>
 We use the available data to make assumptions on annual sales:<br>
 [Price] x [Minimum Nights] x [Reviews Per Month] x 12 <br>
 
@@ -49,18 +58,20 @@ in some other cities, it can be very extreme, only focus on 1-3 regions.
 2 - Top 2 sales, the average price is the lowest 5 & 6 regions, as 87.2 & 91.9 which is lower than the mean 113
 it could imply that the airbnb consumer for Paris prefer an economy stay. 
 
-4/ Top 10 Busy Hosts <br>
+#### 4/ Top 10 Busy Hosts <br>
 We have found out the Top 10 Busy Hosts
 So that Airbnb and can contact them for collaborations:
 e.g. feature their stay in the webpage, there must be some reasons/charateristics for them to be so popular, by featuring them could attract more customers, even if this is full, will arouse customers' interest (giving hope) to search for second options.
 
-5/ Future Maximum Sales <br>
+#### 5/ Future Maximum Sales <br>
 since the maximum sales Airbnb could make highly depends on the availability of the stay. The available of stay in a year X the price ([Availability 365] x [Price]) will be the potential maximum sales Airbnb could make. So that decision makers would know what actions could take based on these availbility. 
 
 
 
 ## Conclusions
-Tableau Dashboard is meant to be 1 page for management to have a glimpse of the data, therefore we only work on 1 page. That means we have to prioritize what we want to show from our findings 
+Tableau Dashboard is meant to be 1 page for management to have a glimpse of the data, therefore we only work on 1 page. That means we have to prioritize what we want to show from our findings.
+We chose to show basic information and some analysis.
+The ultimate goal of airbnb
 
 ## Challenges
 1. Tableau Public has less functions than Tableau Desktop, having limitations to create beautiful maps
