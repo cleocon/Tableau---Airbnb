@@ -5,6 +5,8 @@ Here is the link of the Tableau visualization:
 https://public.tableau.com/app/profile/constance3864/viz/AirbnbParis-DashBoard/Dashboard1
 
 ![Paris](/images/parisairbnb.jpeg)
+
+## Dashboard
 ![Dashboard](/images/Airbnb-Paris.png)
 
 ## Table of Contents
